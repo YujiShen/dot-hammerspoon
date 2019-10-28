@@ -1,3 +1,6 @@
+hs.ipc.cliInstall()
+require("hs.ipc")
+
 emacs = hs.menubar.new()
 
 local function emacsWatcher(appName, eventType, appObject)
